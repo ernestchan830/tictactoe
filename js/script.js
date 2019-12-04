@@ -1,7 +1,11 @@
+var currentPlayer = "O"
+var turns = 0
+var end = false
 
-
-
-
+function performLogic(buttonId,tileId) {
+    buttonId.hide()
+    $('#tile1').text(currentPLayer)
+}
 
 
 
